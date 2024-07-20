@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('bg.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 100px 20px;
+    color: #fff;
+}
+
+#hero h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+#hero p {
+    font-size: 1.2em;
+}
+
+#hero button {
+    background-color: #ff9900;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#hero button:hover {
+    background-color: #cc7a00;
+}
+
+.info-section {
+    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.info-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.info-section h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.info-box {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.info-box img {
+    width: 50%;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.contact-section {
+    padding: 50px 20px;
+    background: url('bg.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+
+.contact-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-section h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-form label {
+    margin-top: 10px;
+    width: 100%;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    background-color: #ff9900;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#contact-form button:hover {
+    background-color: #cc7a00;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
